@@ -1,0 +1,44 @@
+@media (max-width: 1170px) {
+    .container {
+        width: 992px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 768px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100%
+    }
+    header {
+        #main-logo{
+            display: block;
+            float: none;
+            margin: auto;
+            text-align: center;
+            
+            .fa{float: none;
+            }
+        }
+        #header-contact{
+            display: none;
+        }   
+    }
+    
+
+
+#form{ text-align: center;
+    
+    
+    
+}
+    #main-form{
+        left: 0;
+        right: 0;
+        margin: auto;
+        color: aliceblue;
+    }
+    }

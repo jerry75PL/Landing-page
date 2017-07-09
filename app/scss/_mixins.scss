@@ -1,0 +1,12 @@
+@import "variables";
+
+@mixin fa-header {
+    font-size: 2em;
+    float: left;
+    margin-right: 10px;
+}
+
+@mixin col-50 {
+    float: left;
+    width: 50%;
+}
